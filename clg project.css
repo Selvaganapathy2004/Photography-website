@@ -1,0 +1,197 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+        .jerry{
+            position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+        }
+         @keyframes example {
+  from {margin-right: 0px;}
+  to {margin-right: -100px; }
+}
+
+        .WEDDING{
+             width: 700px;
+    height: 400px;
+    object-fit: cover;
+        }
+
+.div{
+    padding: 50px;
+    margin: 20px;
+    border: 5px solid grey;
+    width: 300px;
+
+}
+.one{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+.two{
+     width: 700px;
+    height: 500px;
+    object-fit: cover;
+
+}
+.three{
+     width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+.four{
+     width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%
+}
+.mains{
+    margin-left: 160px; 
+
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+#landing-text {
+    display: flex;
+    flex:  40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.motion{
+     width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#landing-text h2 {
+    color: #888;
+}
+
+#landing-image {
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 60vw;
+  
+}
+
+.btn {
+    border: 1px solid ;
+    display: inline-block;
+    margin: 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.btn:hover{
+
+    color: blue;
+}
+
+.header {
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    width: 1431px;
+    height: 90px;
+    margin-left: -160px;
+}
+
+
+
+.wet{
+    margin-left: 1400px;
+    width: 200px;
+    height: 00px;
+    box-shadow: black;
+}
+
+
+
+
+
+
+
+.caption {
+    padding: 0.8;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+@media(min-width: 31.25rem) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
